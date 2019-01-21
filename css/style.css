@@ -2,7 +2,7 @@
 body {
   color: #444;
   font-size: 16px;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Gentium Book Basic', serif;
 }
 p {
   margin-bottom: .67em;
@@ -59,6 +59,7 @@ article figure {
   margin: 0 0 1.25em 1.25em;
 }
 article figcaption {
+  font-size: 12px;  
 }
 .pagination {
   margin-top: 2em;
@@ -80,6 +81,14 @@ a.button:hover, a.button:active {
   text-decoration: none;
   color: #222;
 }
+
+.flex-container {/*--container styles --*/
+  display: flex; /*-- sets the display mode--*/
+  flex-direction: row; /*-- sets direction row or column --*/
+  justify-content: space-between; /*-- aligns content on main axis --*/
+  flex-wrap: no-wrap; /*-- determines whether content wraps or not --*/
+}
+
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
   header {width: 96%;}
