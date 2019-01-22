@@ -36,6 +36,8 @@ header {
   width: 510px;
   margin-top: 2em;
   margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
 }
 header img {
   width: 100%;
@@ -44,22 +46,29 @@ header img {
 header h1 {
   margin: 0 auto;
   padding: 0 auto;
+  text-align: center;
 }
 .small {
   margin-top: 1em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0 auto;
 }
 /*-- Article Styles--*/
 article {
   width: 768px;
   font-size: 18px;
   line-height: 1.3;
+  margin: auto;
 }
 article figure {
   width: 39%;
   margin: 0 0 1.25em 1.25em;
+  float: right;
 }
 article figcaption {
-  font-size: 12px;  
+  font-size: 12px;
 }
 .pagination {
   margin-top: 2em;
@@ -83,6 +92,7 @@ a.button:hover, a.button:active {
 }
 
 .flex-container {/*--container styles --*/
+  margin: auto;
   display: flex; /*-- sets the display mode--*/
   flex-direction: row; /*-- sets direction row or column --*/
   justify-content: space-between; /*-- aligns content on main axis --*/
