@@ -3,12 +3,14 @@ body {
   color: #444;
   font-size: 16px;
   font-family: 'Gentium Book Basic', serif;
+  background-color: #0D1B2A;
+  color: #EAEAEA;
 }
 p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #444;
+  background-color: #0B3948;
 }
 footer {
   text-align: center;
@@ -25,11 +27,21 @@ nav a:link, nav a:visited {
   text-decoration: none;
 }
 nav a:hover, nav a:active  {
-  color: #F0F0F0;
+  color: #FFA400;
   text-decoration: underline;
 }
 nav a.active {
-  color: #F0F0F0;
+  color: #FFA400;
+}
+
+.dropcap {
+  float: left;
+  font-family: 'Lobster', cursive;
+  font-size: 86px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 24px;
+  padding-left: 1px;
 }
 /*-- Hero Unit Styles--*/
 header {
@@ -68,7 +80,9 @@ article figure {
   float: right;
 }
 article figcaption {
-  font-size: 12px;
+  font-size: 14px;
+  font-family: 'Futura PT', sans-serif;
+  font-weight: 300;
 }
 .pagination {
   margin-top: 2em;
@@ -86,9 +100,9 @@ a.button {
   font-size: 80%;
 }
 a.button:hover, a.button:active {
-  border: 1px solid #444;
+  border: 1px solid #FFA400;
   text-decoration: none;
-  color: #222;
+  color: #FFA400;
 }
 
 .flex-container {/*--container styles --*/

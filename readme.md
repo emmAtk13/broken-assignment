@@ -21,11 +21,11 @@ This file contains a list of all the tasks that remain, in basically the same or
 
 +   Use float to position the article figure on the right-hand side of the text.
 
-+ Use font to style the figcaption so that the size is smaller and the font is lighter-weight and visually distinct (a different font-family) from the body text.
++   Use font to style the figcaption so that the size is smaller and the font is lighter-weight and visually distinct (a different font-family) from the body text.
 
-+ Use auto margins, flex display, and justify-content to evenly distribute (space-evenly) the pagination buttons at the bottom of the page.
++   Use auto margins, flex display, and justify-content to evenly distribute (space-evenly) the pagination buttons at the bottom of the page.
 
-+ Add your name to the footer copyright.
++   Add your name to the footer copyright.
 
 + Style the page with a suitable color scheme, either light or dark, so it doesn't look so plain. Consider using color for: navigation-bar background and text, footer background and text, page background, header background, body text, and pagination buttons, both normal and on hover.
 
