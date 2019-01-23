@@ -3,14 +3,14 @@ body {
   color: #444;
   font-size: 16px;
   font-family: 'Gentium Book Basic', serif;
-  background-color: #0D1B2A;
-  color: #EAEAEA;
+  color: #0D1F2D;
+  background-color: #EDF2F4;
 }
 p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #0B3948;
+  background-color: #0D1F2D;
 }
 footer {
   text-align: center;
@@ -23,21 +23,21 @@ nav ul {
   padding: 1em;
 }
 nav a:link, nav a:visited {
-  color: #D0D0D0;
+  color: #EDF2F4;
   text-decoration: none;
 }
 nav a:hover, nav a:active  {
-  color: #FFA400;
+  color: #F59CA9;
   text-decoration: underline;
 }
 nav a.active {
-  color: #FFA400;
+  color: #F6828C;
 }
 
 .dropcap {
   float: left;
   font-family: 'Lobster', cursive;
-  font-size: 86px;
+  font-size: 82px;
   line-height: 60px;
   padding-top: 4px;
   padding-right: 24px;
@@ -90,19 +90,19 @@ article figcaption {
   width: 96%;
 }
 a.button {
-  border: 1px solid #888;
+  border: 1px solid #0D1F2D;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #888;
+  color: #0D1F2D;
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 80%;
 }
 a.button:hover, a.button:active {
-  border: 1px solid #FFA400;
+  border: 1px solid #F59CA9;
   text-decoration: none;
-  color: #FFA400;
+  color: #F59CA9;
 }
 
 .flex-container {/*--container styles --*/
