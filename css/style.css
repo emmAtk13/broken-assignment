@@ -37,7 +37,7 @@ nav a.active {
 .dropcap {
   float: left;
   font-family: 'Lobster', cursive;
-  font-size: 82px;
+  font-size: 80px;
   line-height: 60px;
   padding-top: 4px;
   padding-right: 24px;
@@ -46,10 +46,7 @@ nav a.active {
 /*-- Hero Unit Styles--*/
 header {
   width: 510px;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 2em auto;
 }
 header img {
   width: 100%;
@@ -61,18 +58,20 @@ header h1 {
   text-align: center;
 }
 .small {
-  margin-top: 1em;
+  margin-top: 12em;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   margin: 0 auto;
+  font-size: 1.2em;
+  color: #F6828C;
 }
 /*-- Article Styles--*/
 article {
   width: 768px;
   font-size: 18px;
   line-height: 1.3;
-  margin: auto;
+  margin: 0 auto;
 }
 article figure {
   width: 39%;
@@ -85,9 +84,10 @@ article figcaption {
   font-weight: 300;
 }
 .pagination {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin: 2em auto;
   width: 96%;
+  display: flex;
+  justify-content: space-between;
 }
 a.button {
   border: 1px solid #0D1F2D;
@@ -100,9 +100,9 @@ a.button {
   font-size: 80%;
 }
 a.button:hover, a.button:active {
-  border: 1px solid #F59CA9;
+  border: 1px solid #F6828C;
   text-decoration: none;
-  color: #F59CA9;
+  color: #F6828C;
 }
 
 .flex-container {/*--container styles --*/
